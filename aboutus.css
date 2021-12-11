@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Dejavu Sans, sans-serif;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type; none;
+	margin-top: 50px;
+}
+	
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 40px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 250px;
+	height: auto;
+}
+
+.main{
+	max-width: 1800px;
+	margin: auto;
+}
+
+.container{
+	height: 65vh;
+	width: 30%;
+	background: rgba(0,0,0,.6);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.img{
+	height: 105px;
+	width: 105px;
+	background: url("../MEDIA/me.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 50px;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+	
+.container h1{
+	color: #fff;
+	margin-top: 80px;
+}
+
+.container p{
+	color: #fff;
+	margin-top: 45px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.container h2{
+	margin-top: 30px;
+	color:#fff
+}
+
+.container .social-menu{
+	top: 50%;
+	left: 50%;
+	transform: translate(-15%,-15%);
+}
+
